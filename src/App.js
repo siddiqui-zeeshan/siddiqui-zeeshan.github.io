@@ -175,28 +175,28 @@ function App() {
                 </Fade>
               </div>
               <div className="col-sm-4">
-                <div
-                  className="d-flex justify-content-center align-content-center"
-                  id="my-pic-div"
-                >
-                  <Fade duration={1000}>
+                <Fade duration={1000}>
+                  <div
+                    className="d-flex justify-content-center align-content-center"
+                    id="my-pic-div"
+                  >
                     <img
                       src={myPic}
                       className="img-fluid"
                       alt="Zeeshan Siddiqui"
                       id="my-pic"
                     />
-                  </Fade>
-                </div>
+                  </div>
+                </Fade>
               </div>
               <div className="col-sm-1" />
             </div>
           </div>
         </div>
         <div className="gap-bottom" />
-        <Fade duration={1000}>
-          <MySkillsList></MySkillsList>
-        </Fade>
+        {/* <Fade duration={1000}> */}
+        <MySkillsList></MySkillsList>
+
         <div className="pages" id="three">
           <div className="container-fluid align-content-center">
             <div className="row">
